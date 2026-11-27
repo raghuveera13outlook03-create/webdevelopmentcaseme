@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Helpdesk & Circular Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">🎓 Student Portal</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#notices">Notices</a>
+        <a href="#resources">Resources</a>
+        <a href="#helpdesk">Helpdesk</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>Student Helpdesk & Circular Portal</h1>
+    <p>Your one-stop destination for university updates and student support.</p>
+    <a href="#notices" class="btn">View Latest Notices</a>
+</section>
+
+<div class="container">
+
+    <section id="notices">
+        <h2>📢 University Notices & Circulars</h2>
+
+        <div class="notice">
+            <span class="tag">Important</span>
+            <h3>Examination Notification</h3>
+            <p>Semester examination registration is now open.</p>
+            <small>Published: 27 November 2026</small>
+        </div>
+
+        <div class="notice">
+            <span class="tag">New</span>
+            <h3>Placement Drive Announcement</h3>
+            <p>Students are invited to register for upcoming campus placements.</p>
+            <small>Published: 25 November 2026</small>
+        </div>
+
+        <div class="notice">
+            <span class="tag">Notice</span>
+            <h3>Library Timings Update</h3>
+            <p>The university library will remain open until 8 PM.</p>
+            <small>Published: 22 November 2026</small>
+        </div>
+    </section>
+
+    <section class="links">
+        <h2>🔗 Important Links</h2>
+        <div class="link-grid">
+            <a href="https://www.ugc.gov.in/" target="_blank">UGC Website ↗</a>
+            <a href="https://www.aicte-india.org/" target="_blank">AICTE Portal ↗</a>
+            <a href="https://www.nptel.ac.in/" target="_blank">NPTEL Courses ↗</a>
+            <a href="https://www.digilocker.gov.in/" target="_blank">DigiLocker ↗</a>
+        </div>
+    </section>
+
+    <section id="resources">
+        <h2>📁 Downloadable Resources</h2>
+
+        <div class="resource">
+            <span>Student Application Form</span>
+            <a href="files/application-form.pdf" download>Download ↓</a>
+        </div>
+
+        <div class="resource">
+            <span>Examination Guidelines</span>
+            <a href="files/exam-guidelines.pdf" download>Download ↓</a>
+        </div>
+
+        <div class="resource">
+            <span>Academic Calendar</span>
+            <a href="files/academic-calendar.pdf" download>Download ↓</a>
+        </div>
+    </section>
+
+    <section id="helpdesk">
+        <h2>💬 Student Enquiry Form</h2>
+
+        <form action="#" method="post">
+            <label>Student Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Roll Number</label>
+            <input type="text" placeholder="Enter your roll number" required>
+
+            <label>Department</label>
+            <select required>
+                <option value="">Select Department</option>
+                <option>Computer Science</option>
+                <option>Cyber Security</option>
+                <option>Electronics</option>
+                <option>Mechanical</option>
+                <option>Other</option>
+            </select>
+
+            <label>Enquiry Category</label>
+            <select required>
+                <option value="">Select Category</option>
+                <option>Examinations</option>
+                <option>Library</option>
+                <option>Hostel</option>
+                <option>Placements</option>
+                <option>Transport</option>
+                <option>Other</option>
+            </select>
+
+            <label>Your Message</label>
+            <textarea rows="5" placeholder="Write your enquiry here..." required></textarea>
+
+            <button type="submit">Submit Enquiry</button>
+        </form>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 Student Helpdesk Portal | All Rights Reserved</p>
+    <p>Designed for University Students 🎓</p>
+</footer>
+
+</body>
+</html>
